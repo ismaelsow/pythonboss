@@ -44,6 +44,10 @@ h1, h2, h3, h4, div, p, ul, li, a, span, blockquote, figure, figcaption {
   padding-left: 16px;
 }
 
+p, ul {
+  padding-top: 12px;
+}
+
 h1, h2, h3, p.lesson-quote {
   font-family: 'Plus Jakarta Display';
   font-weight: 700;
@@ -56,8 +60,8 @@ h4 {
 .h3-big-margin {
   margin-top: 48px;
 }
-.padding-top-72 {
-  margin-top: 72px;
+.padding-top-48 {
+  margin-top: 48px;
 }
 
 .logo {
@@ -79,10 +83,6 @@ h1.lesson-title {
   padding-top: 48px;
   max-width: max-content;
   margin-bottom: 24px;
-}
-
-.intro {
-  padding-top: 24px;
 }
 
 h2 {
@@ -166,7 +166,7 @@ img {
   width: 100%;
 }
 
-.individual-license {
+.lifetime-plan {
   margin-top: 48px;
 }
 
@@ -187,77 +187,44 @@ img {
 
 
 /* TEXT HIGHLIGHTS */
-.purple-text-span {
+
+.text-highlight {
   display: inline-block;
   padding-right: 8px;
   padding-bottom: 4px;
   padding-left: 8px;
   border-radius: 10px;
   background-color: #d5c8fb;
-  color: #1d1d1b;
   max-width:max-content;
 }
 
-.orange-text-span {
-  display: inline-block;
-  padding-right: 8px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  border-radius: 10px;
+.bg-purple {
+  background-color: #d5c8fb;
+  color: #1d1d1b;
+}
+
+.bg-orange {
   background-color: #ffd6bc;
   color: #1d1d1b;
-  max-width:max-content;
 }
 
-.green-text-span {
-  display: inline-block;
-  padding-right: 8px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  border-radius: 10px;
+.bg-green {
   background-color: #cef6e9;
   color: #1d1d1b;
-  max-width:max-content;
 }
 
-.small-green-text-span {
-  display: inline-block;
-  padding: 2px;
-  background-color: #cef6e9;
-  color: #1d1d1b;
-  max-width:max-content;
-}
-
-.blue-text-span {
-  display: inline-block;
-  padding-right: 8px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  border-radius: 10px;
+.bg-blue {
   background-color: #549cff;
-  max-width:max-content;
 }
 
-.yellow-text-span {
-  display: inline-block;
-  padding-right: 8px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  border-radius: 10px;
+.bg-yellow {
   background-color: #f4f8ac;
   color: #1d1d1b;
-  max-width:max-content;
 }
 
-.white-text-span {
-  display: inline-block;
-  padding-right: 8px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  border-radius: 10px;
+.bg-white {
   background-color: #ffffff;
   color: #1d1d1b;
-  max-width:max-content;
 }
 
 
